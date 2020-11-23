@@ -5,6 +5,14 @@ coinForm.addEventListener('submit', function(event) {
     event.preventDefault();
     let numberOfCoins = event.currentTarget.howMany.valueAsNumber;
     let typeOfCoin = event.currentTarget.whichCoin.value;
+    
+    const data = new FormData(coinForm);
+
+    let numberOfCoinzzz = data.get('howMany');
+    console.log("how many coinzz", numberOfCoinzzz);
+
+    let typeOfCoinzz = data.get('whichCoin');
+    console.log("typeofcoinzz", typeOfCoinzz);
 
     drawCoins(numberOfCoins, typeOfCoin);
 });

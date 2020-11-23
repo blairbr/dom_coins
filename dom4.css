@@ -22,3 +22,30 @@
     border-radius: 50%;
     border: 5px solid #b87333;     
 }
+
+.content-container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.coinForm {
+    background-color: aquamarine;
+    border: 2px solid blue;
+    border-radius: 20px;
+    margin-top: 150px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    width: 60%;
+}
+.coinBank {
+    background-color: peachpuff;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-top: 2%;
+    width: 60%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
