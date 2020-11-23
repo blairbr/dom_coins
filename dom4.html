@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="dom4.css">
+    </head>
+    <body>
+
+        <form name="coinForm" action="/action_page.php">
+            <label for="howMany">How many?</label>
+            <input type="number" id="howMany" name="howMany" value=3>
+            <label for="whichCoin">Choose a coin:</label>
+            <select id="whichCoin" name="whichCoin">
+              <option value="penny">Penny</option>
+              <option value="nickel">Nickel</option>
+              <option value="dime">Dime</option>
+              <option value="quarter">Quarter</option>
+            </select>
+            <input type="submit" value="Make Money">
+          </form> 
+
+          <div class="coinBank"></div>
+
+        <script src="dom4.js" async defer></script>
+    </body>
+</html>
